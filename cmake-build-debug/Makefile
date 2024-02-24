@@ -128,6 +128,30 @@ untitled3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/build
 .PHONY : untitled3/fast
 
+ejercicion_en_clase2.obj: ejercicion_en_clase2.cpp.obj
+.PHONY : ejercicion_en_clase2.obj
+
+# target to build an object file
+ejercicion_en_clase2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/ejercicion_en_clase2.cpp.obj
+.PHONY : ejercicion_en_clase2.cpp.obj
+
+ejercicion_en_clase2.i: ejercicion_en_clase2.cpp.i
+.PHONY : ejercicion_en_clase2.i
+
+# target to preprocess a source file
+ejercicion_en_clase2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/ejercicion_en_clase2.cpp.i
+.PHONY : ejercicion_en_clase2.cpp.i
+
+ejercicion_en_clase2.s: ejercicion_en_clase2.cpp.s
+.PHONY : ejercicion_en_clase2.s
+
+# target to generate assembly for a file
+ejercicion_en_clase2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/ejercicion_en_clase2.cpp.s
+.PHONY : ejercicion_en_clase2.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled3
+	@echo ... ejercicion_en_clase2.obj
+	@echo ... ejercicion_en_clase2.i
+	@echo ... ejercicion_en_clase2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

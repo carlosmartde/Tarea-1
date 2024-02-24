@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/carlo/CLionProjects/Tarea-1/ejercicion_en_clase2.cpp">
+			<Option target="untitled3"/>
+		</Unit>
+		<Unit filename="C:/Users/carlo/CLionProjects/Tarea-1/ejercicion_en_clase2.h">
+			<Option target="untitled3"/>
+		</Unit>
 		<Unit filename="C:/Users/carlo/CLionProjects/Tarea-1/main.cpp">
 			<Option target="untitled3"/>
 		</Unit>

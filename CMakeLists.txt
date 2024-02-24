@@ -3,4 +3,6 @@ project(untitled3)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(untitled3 main.cpp)
+add_executable(untitled3 main.cpp
+        ejercicion_en_clase2.cpp
+        ejercicion_en_clase2.h)
